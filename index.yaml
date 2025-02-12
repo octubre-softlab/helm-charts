@@ -3,7 +3,17 @@ entries:
   bfapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-12T18:43:42.466220334Z"
+    created: "2025-02-12T19:03:55.437298102Z"
+    description: A Helm chart for Backend/Frontend application
+    digest: 5a0aa952b668ee999bb38e44d3fad6d70540474a3b03e7617f2f7c5fb057f385
+    name: bfapp
+    type: application
+    urls:
+    - bfapp-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-12T19:03:55.436703389Z"
     description: A Helm chart for Backend/Frontend application
     digest: 8ec606b188d9e9ef3985f8f950f93c8cb0b9ea279eaa1916561444d2d08201a7
     name: bfapp
@@ -13,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-12T18:43:42.465608513Z"
+    created: "2025-02-12T19:03:55.435971328Z"
     description: A Helm chart for Backend/Frontend application
     digest: 5139ad9bd0d42684e5a3b8b2f3a680d19feacfbc9eb33a506519ee0a1bbff47e
     name: bfapp
@@ -24,7 +34,7 @@ entries:
   webapi:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-12T18:43:42.466519216Z"
+    created: "2025-02-12T19:03:55.437661373Z"
     description: A Helm chart for Kubernetes
     digest: 3f860e03a2e93798d2432c19b23b457a1eeb5105d0b097e86ffca5b27de867e8
     name: webapi
@@ -32,4 +42,4 @@ entries:
     urls:
     - webapi-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-12T18:43:42.464916082Z"
+generated: "2025-02-12T19:03:55.435175989Z"
