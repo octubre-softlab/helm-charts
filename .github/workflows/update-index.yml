@@ -6,12 +6,15 @@ on:
     paths:
       - '**.tgz'
 
+permissions:
+  contents: write
+  
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Git Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Helm Installation
         uses: azure/setup-helm@v4.2.0
         with:
